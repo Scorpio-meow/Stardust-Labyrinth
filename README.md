@@ -105,6 +105,17 @@ $$\text{Distance} = |x_{\text{ghost}} - x_{\text{player}}| + |y_{\text{ghost}} -
 
 ---
 
+## 參與貢獻
+
+歡迎提交 Issue 或 Pull Request！開始之前請先閱讀：
+
+- [貢獻指南](./CONTRIBUTING.md)：開發環境、Commit 規範與 Pull Request 流程
+- [行為準則](./CODE_OF_CONDUCT.md)：參與社群的互動規範
+- [安全性政策](./SECURITY.md)：如何私下回報安全性漏洞
+- [無障礙聲明](./ACCESSIBILITY.md)：支援環境、已知限制與回報管道
+
+---
+
 ## 授權條款
 
 本專案採用 [MIT License](./LICENSE) 授權條款。

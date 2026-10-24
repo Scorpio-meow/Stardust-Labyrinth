@@ -1,0 +1,67 @@
+name: 無障礙問題回報
+description: 回報使用時遇到的無障礙障礙
+title: "[A11y]: "
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝你回報無障礙問題！你的回饋能讓更多人順利使用本專案。
+        送出前可以先參考[無障礙聲明](https://github.com/Scorpio-meow/Stardust-Labyrinth/blob/main/ACCESSIBILITY.md)中的已知限制。不方便公開說明時，也可以寄信至 [yao921024@gmail.com](mailto:yao921024@gmail.com)。
+  - type: textarea
+    id: barrier
+    attributes:
+      label: 遇到的障礙
+      description: 請描述你遇到了什麼困難，以及它如何影響你的使用。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 發生的位置或步驟
+      description: 在哪個畫面、功能或操作步驟中遇到這個問題？
+    validations:
+      required: true
+  - type: textarea
+    id: assistive-tech
+    attributes:
+      label: 使用的輔助科技或設定
+      description: 例如螢幕閱讀器名稱與版本、螢幕放大倍率、只使用鍵盤、減少動態效果、高對比模式等；沒有使用也請說明。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望的使用方式
+      description: 你希望能怎麼完成這個操作？
+  - type: input
+    id: python-version
+    attributes:
+      label: Python 版本
+      description: 可執行 `python --version` 查詢。
+      placeholder: 例如 3.12.4
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: 作業系統
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - 其他（請在下方說明）
+    validations:
+      required: true
+  - type: input
+    id: terminal
+    attributes:
+      label: 終端機
+      placeholder: 例如 Windows Terminal、PowerShell、macOS Terminal、GNOME Terminal
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: 其他資訊
+      description: 截圖、錄影或任何補充說明。
